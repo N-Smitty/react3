@@ -8,7 +8,7 @@ export default class Buttons extends Component {
 
         <div className='allButtons'>
 
-            <button className='prevButton' onClick={this.props.previous}>{`< Previous`}</button>
+            <button className='prevButton' onClick={this.props.previous}>Previous</button>
 
         <div className='more-buttons'>
 
@@ -20,7 +20,7 @@ export default class Buttons extends Component {
 
         </div>
 
-            <button className='nextButton' onClick={this.props.next}>Next > </button>
+            <button className='nextButton' onClick={this.props.next}>Next</button>
 
         </div>
 
